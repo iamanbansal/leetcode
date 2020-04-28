@@ -1,6 +1,10 @@
 package leetCode.thirtyDaysChallenge.week4
 
 import kotlin.collections.LinkedHashMap
+/*
+* Leetcode problem
+* https://leetcode.com/problems/lru-cache/
+*/
 
 fun main() {
     val cache = LRUCache(2 /* capacity */)

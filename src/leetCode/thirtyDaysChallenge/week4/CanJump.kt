@@ -4,6 +4,11 @@ import kotlin.math.max
 import kotlin.system.measureNanoTime
 
 
+/*
+* Leetcode problem
+* https://leetcode.com/problems/jump-game/
+*/
+
 fun main() {
     println(measureNanoTime { canJump(intArrayOf(3,2,1,0,4)) })
     println(measureNanoTime { canJump2(intArrayOf(3,2,1,0,4)) })
