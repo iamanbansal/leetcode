@@ -1,6 +1,5 @@
-package medium
+package dp
 
-import thirtyDaysAprilChallenge.week2.dia
 import kotlin.math.min
 
 
