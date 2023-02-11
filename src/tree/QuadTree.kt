@@ -1,5 +1,8 @@
 package tree
 
+//https://leetcode.com/problems/construct-quad-tree/
+
+
 class Node(var `val`: Boolean, var isLeaf: Boolean) {
     var topLeft: Node? = null
     var topRight: Node? = null
