@@ -4,6 +4,9 @@ import juneChallenge.week1.TreeNode
 import java.util.Queue
 import java.util.LinkedList
 
+//https://leetcode.com/problems/binary-search-tree-iterator/
+
+
 class BSTIterator(private val root: TreeNode) {
     private var currQueue: Queue<TreeNode> = LinkedList()
     private var nextQueue: Queue<TreeNode> = LinkedList()
