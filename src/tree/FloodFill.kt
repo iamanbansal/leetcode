@@ -1,4 +1,4 @@
-package mayChallenge.week2
+package tree
 
 import kotlin.system.measureTimeMillis
 
@@ -13,7 +13,7 @@ fun floodFill(image: Array<IntArray>, sr: Int, sc: Int, newColor: Int): Array<In
 
     val srcColor = image[sr][sc]
     val rows = image.size
-    val cols =image[sc].size
+    val cols = image[sc].size
 
     fun dfs(sr: Int, sc: Int) {
         if (sr < 0 || sc < 0 || sr >= rows || sc >= cols) //defending boundary calls
@@ -28,7 +28,6 @@ fun floodFill(image: Array<IntArray>, sr: Int, sc: Int, newColor: Int): Array<In
         dfs(sr, sc + 1) // up
     }
 
-    dfs(sr,sc)
+    dfs(sr, sc)
     return image
 }
-
